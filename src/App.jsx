@@ -11,6 +11,7 @@ import Conditional from './components/basics/Conditional'
 import ConditionalIf from './components/basics/ConditionalIf'
 import Father from './components/communication/direct/Father'
 import Super from './components/communication/indirect/Super'
+import Input from './components/form/input'
 
 export default (props) => (
     <div className="App">
@@ -45,6 +46,9 @@ export default (props) => (
         </Card>
         <Card title="#08 - Indirect Communication" color="#9B539C">
             <Super />
+        </Card>
+        <Card title="#09 - Input" color="#C6D5CD">
+            <Input />
         </Card>
     </div>
 );
