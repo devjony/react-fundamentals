@@ -3,12 +3,12 @@ import './index.css'
 import React from 'react'
 
 import Card from './components/layout/Card'
-import First from './components/First'
-import Parameter from './components/Parameter'
-import Children from './components/Children'
-import Loop from './components/Loop'
-import Conditional from './components/Conditional'
-import ConditionalIf from './components/ConditionalIf'
+import First from './components/basics/First'
+import Parameter from './components/basics/Parameter'
+import Children from './components/basics/Children'
+import Loop from './components/basics/Loop'
+import Conditional from './components/basics/Conditional'
+import ConditionalIf from './components/basics/ConditionalIf'
 
 export default (props) => (
     <div className="App">
