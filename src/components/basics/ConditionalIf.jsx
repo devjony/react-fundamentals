@@ -3,6 +3,8 @@ import If from './If'
 
 export default props => {
 
+    // props are read only!!
+    // props.title = "New Title"
     return(
         <div>
             <h2>The number is { props.number }</h2>

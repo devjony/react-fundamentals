@@ -12,14 +12,14 @@ import ConditionalIf from './components/basics/ConditionalIf'
 
 export default (props) => (
     <div className="App">
-        <Card title="#01 - First Component">
+        <Card title="#01 - First Component" color="#5A6A62">
             <First />
         </Card>
-        <Card title="#02 - Component with Parameters">
+        <Card title="#02 - With Parameters" color="#00C8F8">
             <Parameter title="It is the title"
                 subtitle="It is the subtitle" />
         </Card>
-        <Card title="#03 - Component with Children">
+        <Card title="#03 - With Children" color="#1FDA9A">
             <Children>
                 <ul>
                     <li>Anny</li>
@@ -29,13 +29,13 @@ export default (props) => (
                 </ul>
             </Children>
         </Card>
-        <Card title="#04 - Component with Loop">
+        <Card title="#04 - With Loop" color="#F2E394">
             <Loop />
         </Card>
-        <Card title="#05 - Component with Conditional v1">
+        <Card title="#05 - With Conditional v1" color="#E94C6F">
             <Conditional number={10} />
         </Card>
-        <Card title="#06 - Component with Conditional v2">
+        <Card title="#06 - With Conditional v2" color="#FA6900">
             <ConditionalIf number={11} />
         </Card>
     </div>

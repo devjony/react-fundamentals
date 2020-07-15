@@ -2,11 +2,15 @@ import './Card.css'
 import React from 'react'
 
 export default props =>
-    <div className="Card">
+    <div className="Card" style={{
+        borderColor: props.color || '#000'
+    }}>
         <div className="Content">
-            {props.children}
+            { props.children }
         </div>
-        <div className="Footer">
-            {props.title}
+        <div className="Footer" style={{
+            backgroundColor: props.color || '#000'
+        }}>
+            { props.title }
         </div>
     </div>
