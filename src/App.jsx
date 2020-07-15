@@ -9,6 +9,7 @@ import Children from './components/basics/Children'
 import Loop from './components/basics/Loop'
 import Conditional from './components/basics/Conditional'
 import ConditionalIf from './components/basics/ConditionalIf'
+import Father from './components/communication/direct/Father'
 
 export default (props) => (
     <div className="App">
@@ -37,6 +38,9 @@ export default (props) => (
         </Card>
         <Card title="#06 - With Conditional v2" color="#FA6900">
             <ConditionalIf number={11} />
+        </Card>
+        <Card title="#07 - Direct Communication" color="#354458">
+            <Father secondName="Clinton" />
         </Card>
     </div>
 );
