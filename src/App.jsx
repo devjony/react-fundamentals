@@ -10,6 +10,7 @@ import Loop from './components/basics/Loop'
 import Conditional from './components/basics/Conditional'
 import ConditionalIf from './components/basics/ConditionalIf'
 import Father from './components/communication/direct/Father'
+import Super from './components/communication/indirect/Super'
 
 export default (props) => (
     <div className="App">
@@ -41,6 +42,9 @@ export default (props) => (
         </Card>
         <Card title="#07 - Direct Communication" color="#354458">
             <Father secondName="Clinton" />
+        </Card>
+        <Card title="#08 - Indirect Communication" color="#9B539C">
+            <Super />
         </Card>
     </div>
 );
