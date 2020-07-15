@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Sub from './Sub'
 
 export default props => {
 
+    const [num, setNum] = useState(0)
+    const [text, setText] = useState("Value")
+
     function afterClick(value, text) {
-        console.log("Action!")
-        console.log(value)
-        console.log(text)
+        setNum(value)
+        setText(text)
     }
 
     return (
         <div>
-            <h4>Value</h4>
+            <h4>{ text }: { num }</h4>
             <Sub whenClick={ afterClick }>Dan</Sub>
         </div>
     )

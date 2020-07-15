@@ -3,7 +3,7 @@ import React from 'react'
 export default props => {
 
     function action() {
-        props.whenClick(Math.random().toFixed(2), "End!")
+        props.whenClick((Math.random()  * 10).toFixed(2), "Gerado")
     }
 
     return (
